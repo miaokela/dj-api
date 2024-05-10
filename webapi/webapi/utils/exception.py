@@ -59,19 +59,7 @@ def exception_handler(exc, context):
     Any unhandled exceptions may return `None`, which will cause a 500 error
     to be raised.
     """
-    if isinstance(exc, Http404):
-        exc = APINotFound()
-    
-    if isinstance(exc, Exception):
-        exc = APIServerError()
-
     if isinstance(exc, exceptions.APIException):
-        headers = {}
-        if getattr(exc, "auth_header", None):
-            headers["WWW-Authenticate"] = exc.auth_header
-        if getattr(exc, "wait", None):
-            headers["Retry-After"] = "%d" % exc.wait
-
         if isinstance(exc.detail, (list, dict)):
             if isinstance(exc.detail, list):
                 errors = exc.detail
@@ -84,7 +72,6 @@ def exception_handler(exc, context):
         return Response(
             {"code": exc.status_code, "msg": "failed", "errors": errors, "data": {}},
             status=status.HTTP_200_OK,
-            headers=headers,
         )
 
     return None

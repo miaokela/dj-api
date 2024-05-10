@@ -15,6 +15,7 @@ django-celery-beat==2.2.0
 pyyaml
 jinja2
 pymysql
+djangorestframework-simplejwt
 ```
 
 ## 基本功能

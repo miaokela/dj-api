@@ -3,3 +3,406 @@
 2024-05-10 19:57:00,613 INFO basehttp "GET /api/v1/test/1/ HTTP/1.1" 200 64
 2024-05-10 19:57:19,131 INFO autoreload /Users/kela/Program/Backend/dj-api/dj-api/webapi/core/views.py changed, reloading.
 2024-05-10 19:57:20,259 INFO autoreload Watching for file changes with StatReloader
+2024-05-10 19:59:42,990 INFO autoreload /Users/kela/Program/Backend/dj-api/dj-api/webapi/core/views.py changed, reloading.
+2024-05-10 19:59:44,105 INFO autoreload Watching for file changes with StatReloader
+2024-05-10 19:59:46,480 INFO basehttp "GET /api/v1/test/1/ HTTP/1.1" 200 64
+2024-05-10 20:01:02,350 INFO autoreload /Users/kela/Program/Backend/dj-api/dj-api/webapi/core/views.py changed, reloading.
+2024-05-10 20:01:03,590 INFO autoreload Watching for file changes with StatReloader
+2024-05-10 20:07:27,625 INFO autoreload /Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/django/contrib/admin/migrations/__init__.py changed, reloading.
+2024-05-10 20:07:29,045 INFO autoreload Watching for file changes with StatReloader
+2024-05-10 20:10:17,568 INFO autoreload Watching for file changes with StatReloader
+2024-05-10 20:21:10,845 INFO autoreload /Users/kela/Program/Backend/dj-api/dj-api/webapi/webapi/settings.py changed, reloading.
+2024-05-10 20:21:12,046 INFO autoreload Watching for file changes with StatReloader
+2024-05-10 20:21:37,693 INFO autoreload /Users/kela/Program/Backend/dj-api/dj-api/webapi/webapi/urls.py changed, reloading.
+2024-05-10 20:21:39,006 INFO autoreload Watching for file changes with StatReloader
+2024-05-10 20:21:49,925 INFO autoreload /Users/kela/Program/Backend/dj-api/dj-api/webapi/webapi/urls.py changed, reloading.
+2024-05-10 20:21:51,074 INFO autoreload Watching for file changes with StatReloader
+2024-05-10 20:28:00,179 INFO autoreload /Users/kela/Program/Backend/dj-api/dj-api/webapi/webapi/urls.py changed, reloading.
+2024-05-10 20:28:01,501 INFO autoreload Watching for file changes with StatReloader
+2024-05-10 20:30:41,849 INFO autoreload /Users/kela/Program/Backend/dj-api/dj-api/webapi/core/views.py changed, reloading.
+2024-05-10 20:30:43,136 INFO autoreload Watching for file changes with StatReloader
+2024-05-10 20:31:01,283 INFO autoreload /Users/kela/Program/Backend/dj-api/dj-api/webapi/core/views.py changed, reloading.
+2024-05-10 20:31:02,467 INFO autoreload Watching for file changes with StatReloader
+2024-05-10 20:31:19,714 INFO autoreload /Users/kela/Program/Backend/dj-api/dj-api/webapi/core/views.py changed, reloading.
+2024-05-10 20:31:20,878 INFO autoreload Watching for file changes with StatReloader
+2024-05-10 20:31:27,555 INFO autoreload /Users/kela/Program/Backend/dj-api/dj-api/webapi/core/views.py changed, reloading.
+2024-05-10 20:31:28,675 INFO autoreload Watching for file changes with StatReloader
+2024-05-10 20:32:48,064 INFO autoreload /Users/kela/Program/Backend/dj-api/dj-api/webapi/core/urls.py changed, reloading.
+2024-05-10 20:32:49,158 INFO autoreload Watching for file changes with StatReloader
+2024-05-10 20:32:51,654 INFO autoreload /Users/kela/Program/Backend/dj-api/dj-api/webapi/core/urls.py changed, reloading.
+2024-05-10 20:32:52,952 INFO autoreload Watching for file changes with StatReloader
+2024-05-10 20:32:56,459 INFO autoreload /Users/kela/Program/Backend/dj-api/dj-api/webapi/core/urls.py changed, reloading.
+2024-05-10 20:32:57,705 INFO autoreload Watching for file changes with StatReloader
+2024-05-10 20:33:29,991 INFO autoreload /Users/kela/Program/Backend/dj-api/dj-api/webapi/core/urls.py changed, reloading.
+2024-05-10 20:33:32,007 INFO autoreload Watching for file changes with StatReloader
+2024-05-10 20:33:43,181 INFO basehttp "GET /docs/ HTTP/1.1" 200 31342
+2024-05-10 20:33:43,201 INFO basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+2024-05-10 20:33:43,204 INFO basehttp "GET /static/rest_framework/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+2024-05-10 20:33:43,204 INFO basehttp "GET /static/rest_framework/js/coreapi-0.1.1.js HTTP/1.1" 304 0
+2024-05-10 20:33:43,205 INFO basehttp "GET /static/rest_framework/css/font-awesome-4.0.3.css HTTP/1.1" 304 0
+2024-05-10 20:33:43,206 INFO basehttp "GET /docs/schema.js HTTP/1.1" 200 2072
+2024-05-10 20:33:43,207 INFO basehttp "GET /static/rest_framework/docs/css/base.css HTTP/1.1" 304 0
+2024-05-10 20:33:43,208 INFO basehttp "GET /static/rest_framework/docs/css/jquery.json-view.min.css HTTP/1.1" 304 0
+2024-05-10 20:33:43,209 INFO basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+2024-05-10 20:33:43,211 INFO basehttp "GET /static/rest_framework/docs/js/api.js HTTP/1.1" 304 0
+2024-05-10 20:33:43,211 INFO basehttp "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+2024-05-10 20:33:43,211 INFO basehttp "GET /static/rest_framework/docs/js/jquery.json-view.min.js HTTP/1.1" 304 0
+2024-05-10 20:33:43,229 INFO basehttp "GET /static/rest_framework/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+2024-05-10 20:33:43,247 INFO basehttp "GET /static/rest_framework/docs/img/favicon.ico HTTP/1.1" 304 0
+2024-05-10 20:34:08,081 INFO basehttp "GET /docs/ HTTP/1.1" 200 31342
+2024-05-10 20:34:08,097 INFO basehttp "GET /docs/schema.js HTTP/1.1" 200 2072
+2024-05-10 20:34:27,018 INFO autoreload Watching for file changes with StatReloader
+2024-05-10 20:34:29,163 INFO basehttp "GET /docs/ HTTP/1.1" 200 31342
+2024-05-10 20:34:29,177 INFO basehttp "GET /docs/schema.js HTTP/1.1" 200 2072
+2024-05-10 20:34:41,231 INFO basehttp "POST /api/v1/login/ HTTP/1.1" 200 64
+2024-05-10 20:35:00,931 INFO basehttp "POST /api/v1/login/ HTTP/1.1" 200 64
+2024-05-10 20:35:01,458 INFO basehttp "POST /api/v1/login/ HTTP/1.1" 200 64
+2024-05-10 20:35:05,362 INFO autoreload Watching for file changes with StatReloader
+2024-05-10 20:35:07,595 INFO basehttp "POST /api/v1/login/ HTTP/1.1" 200 64
+2024-05-10 20:35:35,385 INFO basehttp "POST /api/v1/login/ HTTP/1.1" 200 64
+2024-05-10 20:35:37,649 INFO basehttp "GET /docs/ HTTP/1.1" 200 31342
+2024-05-10 20:35:37,664 INFO basehttp "GET /docs/schema.js HTTP/1.1" 200 2072
+2024-05-10 20:39:17,370 INFO autoreload /Users/kela/Program/Backend/dj-api/dj-api/webapi/core/serializers.py changed, reloading.
+2024-05-10 20:39:44,837 INFO basehttp "POST /api/v1/register/ HTTP/1.1" 200 77
+2024-05-10 20:39:45,880 INFO autoreload Watching for file changes with StatReloader
+2024-05-10 20:42:09,112 INFO autoreload /Users/kela/Program/Backend/dj-api/dj-api/webapi/core/views.py changed, reloading.
+2024-05-10 20:42:10,423 INFO autoreload Watching for file changes with StatReloader
+2024-05-10 20:42:11,867 INFO autoreload /Users/kela/Program/Backend/dj-api/dj-api/webapi/core/views.py changed, reloading.
+2024-05-10 20:42:13,003 INFO autoreload Watching for file changes with StatReloader
+2024-05-10 20:42:24,936 INFO autoreload /Users/kela/Program/Backend/dj-api/dj-api/webapi/core/views.py changed, reloading.
+2024-05-10 20:42:25,968 INFO autoreload Watching for file changes with StatReloader
+2024-05-10 20:42:31,581 INFO autoreload /Users/kela/Program/Backend/dj-api/dj-api/webapi/core/views.py changed, reloading.
+2024-05-10 20:42:32,857 INFO autoreload Watching for file changes with StatReloader
+2024-05-10 20:42:45,694 INFO autoreload Watching for file changes with StatReloader
+2024-05-10 20:42:50,175 INFO basehttp "GET /docs/ HTTP/1.1" 200 31342
+2024-05-10 20:42:50,190 INFO basehttp "GET /docs/schema.js HTTP/1.1" 200 2072
+2024-05-10 20:43:08,659 INFO basehttp "POST /api/v1/register/ HTTP/1.1" 200 166
+2024-05-10 20:48:15,613 INFO autoreload /Users/kela/Program/Backend/dj-api/dj-api/webapi/core/views.py changed, reloading.
+2024-05-10 20:48:16,914 INFO autoreload Watching for file changes with StatReloader
+2024-05-10 20:48:24,663 INFO autoreload /Users/kela/Program/Backend/dj-api/dj-api/webapi/core/views.py changed, reloading.
+2024-05-10 20:48:25,918 INFO autoreload Watching for file changes with StatReloader
+2024-05-10 20:48:32,549 INFO autoreload /Users/kela/Program/Backend/dj-api/dj-api/webapi/core/views.py changed, reloading.
+2024-05-10 20:48:33,721 INFO autoreload Watching for file changes with StatReloader
+2024-05-10 20:49:14,116 INFO basehttp "GET /docs/ HTTP/1.1" 200 33434
+2024-05-10 20:49:14,132 INFO basehttp "GET /docs/schema.js HTTP/1.1" 200 2732
+2024-05-10 20:49:31,369 INFO basehttp "POST /api/v1/register/ HTTP/1.1" 200 64
+2024-05-10 20:52:38,667 INFO autoreload /Users/kela/Program/Backend/dj-api/dj-api/webapi/webapi/utils/exception.py changed, reloading.
+2024-05-10 20:52:40,031 INFO basehttp "POST /api/v1/register/ HTTP/1.1" 200 64
+2024-05-10 20:52:41,254 INFO autoreload Watching for file changes with StatReloader
+2024-05-10 20:52:49,906 INFO basehttp "POST /api/v1/register/ HTTP/1.1" 200 128
+2024-05-10 20:55:27,064 INFO autoreload /Users/kela/Program/Backend/dj-api/dj-api/webapi/webapi/utils/exception.py changed, reloading.
+2024-05-10 20:55:28,228 INFO autoreload Watching for file changes with StatReloader
+2024-05-10 20:58:43,923 INFO basehttp "POST /api/v1/register/ HTTP/1.1" 200 90
+2024-05-10 20:58:56,115 INFO basehttp "POST /api/v1/register/ HTTP/1.1" 200 90
+2024-05-10 20:59:05,510 ERROR log Internal Server Error: /api/v1/register/
+Traceback (most recent call last):
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/kela/Program/Backend/dj-api/dj-api/webapi/webapi/utils/rewrite.py", line 64, in post
+    return self.create(request, *args, **kwargs)
+  File "/Users/kela/Program/Backend/dj-api/dj-api/webapi/webapi/utils/rewrite.py", line 12, in create
+    self.perform_create(serializer)
+  File "/Users/kela/Program/Backend/dj-api/dj-api/webapi/core/views.py", line 50, in perform_create
+    'refresh': str(refresh),
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework_simplejwt/tokens.py", line 82, in __str__
+    return token_backend.encode(self.payload)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework_simplejwt/backends.py", line 53, in encode
+    return token.decode('utf-8')
+AttributeError: 'str' object has no attribute 'decode'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/django/views/generic/base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework/views.py", line 466, in handle_exception
+    response = exception_handler(exc, context)
+  File "/Users/kela/Program/Backend/dj-api/dj-api/webapi/webapi/utils/exception.py", line 85, in exception_handler
+    {"code": exc.status_code, "msg": "failed", "errors": [], "data": {}},
+AttributeError: 'AttributeError' object has no attribute 'status_code'
+2024-05-10 20:59:05,511 ERROR basehttp "POST /api/v1/register/ HTTP/1.1" 500 113398
+2024-05-10 20:59:31,713 INFO autoreload /Users/kela/Program/Backend/dj-api/dj-api/webapi/webapi/utils/exception.py changed, reloading.
+2024-05-10 20:59:33,009 INFO autoreload Watching for file changes with StatReloader
+2024-05-10 21:00:59,053 INFO autoreload /Users/kela/Program/Backend/dj-api/dj-api/webapi/webapi/utils/exception.py changed, reloading.
+2024-05-10 21:00:59,890 INFO basehttp "POST /api/v1/register/ HTTP/1.1" 200 64
+2024-05-10 21:01:00,976 INFO autoreload Watching for file changes with StatReloader
+2024-05-10 21:01:03,564 INFO basehttp "POST /api/v1/register/ HTTP/1.1" 200 49
+2024-05-10 21:02:15,594 INFO autoreload /Users/kela/Program/Backend/dj-api/dj-api/webapi/webapi/utils/exception.py changed, reloading.
+2024-05-10 21:02:16,195 INFO basehttp "POST /api/v1/register/ HTTP/1.1" 200 49
+2024-05-10 21:02:17,379 INFO autoreload Watching for file changes with StatReloader
+2024-05-10 21:02:28,870 INFO basehttp "POST /api/v1/register/ HTTP/1.1" 200 103
+2024-05-10 21:03:46,039 ERROR log Internal Server Error: /api/v1/login/
+Traceback (most recent call last):
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/django/views/generic/base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework_simplejwt/views.py", line 27, in post
+    serializer.is_valid(raise_exception=True)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework/serializers.py", line 220, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework/serializers.py", line 422, in run_validation
+    value = self.validate(value)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework_simplejwt/serializers.py", line 74, in validate
+    data['refresh'] = str(refresh)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework_simplejwt/tokens.py", line 82, in __str__
+    return token_backend.encode(self.payload)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework_simplejwt/backends.py", line 53, in encode
+    return token.decode('utf-8')
+AttributeError: 'str' object has no attribute 'decode'
+2024-05-10 21:03:46,041 ERROR basehttp "POST /api/v1/login/ HTTP/1.1" 500 118921
+2024-05-10 21:04:36,262 ERROR log Internal Server Error: /api/v1/login/
+Traceback (most recent call last):
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/django/views/generic/base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework_simplejwt/views.py", line 27, in post
+    serializer.is_valid(raise_exception=True)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework/serializers.py", line 220, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework/serializers.py", line 422, in run_validation
+    value = self.validate(value)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework_simplejwt/serializers.py", line 74, in validate
+    data['refresh'] = str(refresh)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework_simplejwt/tokens.py", line 82, in __str__
+    return token_backend.encode(self.payload)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework_simplejwt/backends.py", line 53, in encode
+    return token.decode('utf-8')
+AttributeError: 'str' object has no attribute 'decode'
+2024-05-10 21:04:36,263 ERROR basehttp "POST /api/v1/login/ HTTP/1.1" 500 118921
+2024-05-10 21:04:37,132 ERROR log Internal Server Error: /api/v1/login/
+Traceback (most recent call last):
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/django/views/generic/base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework_simplejwt/views.py", line 27, in post
+    serializer.is_valid(raise_exception=True)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework/serializers.py", line 220, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework/serializers.py", line 422, in run_validation
+    value = self.validate(value)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework_simplejwt/serializers.py", line 74, in validate
+    data['refresh'] = str(refresh)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework_simplejwt/tokens.py", line 82, in __str__
+    return token_backend.encode(self.payload)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework_simplejwt/backends.py", line 53, in encode
+    return token.decode('utf-8')
+AttributeError: 'str' object has no attribute 'decode'
+2024-05-10 21:04:37,133 ERROR basehttp "POST /api/v1/login/ HTTP/1.1" 500 118921
+2024-05-10 21:04:55,656 INFO autoreload Watching for file changes with StatReloader
+2024-05-10 21:05:14,856 ERROR log Internal Server Error: /api/v1/login/
+Traceback (most recent call last):
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/django/views/generic/base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework_simplejwt/views.py", line 27, in post
+    serializer.is_valid(raise_exception=True)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework/serializers.py", line 220, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework/serializers.py", line 422, in run_validation
+    value = self.validate(value)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework_simplejwt/serializers.py", line 74, in validate
+    data['refresh'] = str(refresh)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework_simplejwt/tokens.py", line 82, in __str__
+    return token_backend.encode(self.payload)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework_simplejwt/backends.py", line 53, in encode
+    return token.decode('utf-8')
+AttributeError: 'str' object has no attribute 'decode'
+2024-05-10 21:05:14,857 ERROR basehttp "POST /api/v1/login/ HTTP/1.1" 500 118921
+2024-05-10 21:05:41,805 INFO autoreload Watching for file changes with StatReloader
+2024-05-10 21:05:44,020 ERROR log Internal Server Error: /api/v1/login/
+Traceback (most recent call last):
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/django/views/generic/base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework_simplejwt/views.py", line 27, in post
+    serializer.is_valid(raise_exception=True)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework/serializers.py", line 220, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework/serializers.py", line 422, in run_validation
+    value = self.validate(value)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework_simplejwt/serializers.py", line 74, in validate
+    data['refresh'] = str(refresh)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework_simplejwt/tokens.py", line 82, in __str__
+    return token_backend.encode(self.payload)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework_simplejwt/backends.py", line 53, in encode
+    return token.decode('utf-8')
+AttributeError: 'str' object has no attribute 'decode'
+2024-05-10 21:05:44,022 ERROR basehttp "POST /api/v1/login/ HTTP/1.1" 500 118921
+2024-05-10 21:06:21,924 INFO autoreload Watching for file changes with StatReloader
+2024-05-10 21:06:57,491 ERROR log Internal Server Error: /api/v1/login/
+Traceback (most recent call last):
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/django/views/generic/base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework_simplejwt/views.py", line 27, in post
+    serializer.is_valid(raise_exception=True)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework/serializers.py", line 220, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework/serializers.py", line 422, in run_validation
+    value = self.validate(value)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework_simplejwt/serializers.py", line 74, in validate
+    data['refresh'] = str(refresh)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework_simplejwt/tokens.py", line 82, in __str__
+    return token_backend.encode(self.payload)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework_simplejwt/backends.py", line 53, in encode
+    return token.decode('utf-8')
+AttributeError: 'str' object has no attribute 'decode'
+2024-05-10 21:06:57,493 ERROR basehttp "POST /api/v1/login/ HTTP/1.1" 500 119702
+2024-05-10 21:11:03,166 INFO autoreload /Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework_simplejwt/state.py changed, reloading.
+2024-05-10 21:11:03,220 ERROR log Internal Server Error: /api/v1/login/
+Traceback (most recent call last):
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/django/views/generic/base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework_simplejwt/views.py", line 27, in post
+    serializer.is_valid(raise_exception=True)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework/serializers.py", line 220, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework/serializers.py", line 422, in run_validation
+    value = self.validate(value)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework_simplejwt/serializers.py", line 74, in validate
+    data['refresh'] = str(refresh)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework_simplejwt/tokens.py", line 82, in __str__
+    return token_backend.encode(self.payload)
+  File "/Users/kela/anaconda3/envs/dj_api/lib/python3.8/site-packages/rest_framework_simplejwt/backends.py", line 53, in encode
+    if isinstance(token, bytes):
+AttributeError: 'str' object has no attribute 'decode'
+2024-05-10 21:11:03,221 ERROR basehttp "POST /api/v1/login/ HTTP/1.1" 500 119338
+2024-05-10 21:11:04,255 INFO autoreload Watching for file changes with StatReloader
+2024-05-10 21:11:28,274 INFO basehttp "POST /api/v1/login/ HTTP/1.1" 200 438
+2024-05-10 21:12:55,954 INFO basehttp "GET /api/v1/test/ HTTP/1.1" 200 89
+2024-05-10 21:14:23,514 INFO autoreload /Users/kela/Program/Backend/dj-api/dj-api/webapi/core/views.py changed, reloading.
+2024-05-10 21:14:24,685 INFO autoreload Watching for file changes with StatReloader
+2024-05-10 21:14:27,227 INFO autoreload /Users/kela/Program/Backend/dj-api/dj-api/webapi/core/views.py changed, reloading.
+2024-05-10 21:14:28,486 INFO autoreload Watching for file changes with StatReloader
+2024-05-10 21:14:32,497 INFO basehttp "GET /docs/ HTTP/1.1" 200 33434
+2024-05-10 21:14:32,515 INFO basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+2024-05-10 21:14:32,520 INFO basehttp "GET /static/rest_framework/css/bootstrap-theme.min.css HTTP/1.1" 304 0
+2024-05-10 21:14:32,521 INFO basehttp "GET /static/rest_framework/css/font-awesome-4.0.3.css HTTP/1.1" 304 0
+2024-05-10 21:14:32,523 INFO basehttp "GET /static/rest_framework/docs/css/jquery.json-view.min.css HTTP/1.1" 304 0
+2024-05-10 21:14:32,523 INFO basehttp "GET /static/rest_framework/js/coreapi-0.1.1.js HTTP/1.1" 304 0
+2024-05-10 21:14:32,525 INFO basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+2024-05-10 21:14:32,525 INFO basehttp "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+2024-05-10 21:14:32,526 INFO basehttp "GET /static/rest_framework/docs/css/base.css HTTP/1.1" 304 0
+2024-05-10 21:14:32,526 INFO basehttp "GET /docs/schema.js HTTP/1.1" 200 2732
+2024-05-10 21:14:32,528 INFO basehttp "GET /static/rest_framework/docs/js/jquery.json-view.min.js HTTP/1.1" 304 0
+2024-05-10 21:14:32,529 INFO basehttp "GET /static/rest_framework/docs/js/api.js HTTP/1.1" 304 0
+2024-05-10 21:14:32,554 INFO basehttp "GET /static/rest_framework/docs/img/favicon.ico HTTP/1.1" 304 0
+2024-05-10 21:14:36,577 INFO basehttp "GET /api/v1/test/ HTTP/1.1" 200 94
+2024-05-10 21:14:55,287 INFO basehttp "POST /api/v1/login/ HTTP/1.1" 200 438
+2024-05-10 21:15:02,444 INFO basehttp "GET /api/v1/test/ HTTP/1.1" 200 94
+2024-05-10 21:15:41,248 INFO basehttp "GET /api/v1/test/ HTTP/1.1" 200 89
+2024-05-10 21:18:28,567 INFO basehttp "POST /api/v1/token/refresh/ HTTP/1.1" 200 72
+2024-05-10 21:20:15,568 INFO basehttp "POST /api/v1/token/refresh/ HTTP/1.1" 200 72
+2024-05-10 21:20:28,532 INFO basehttp "POST /api/v1/login/ HTTP/1.1" 200 438
+2024-05-10 21:20:50,828 INFO basehttp "POST /api/v1/token/refresh/ HTTP/1.1" 200 218
+2024-05-10 21:23:12,609 INFO autoreload /Users/kela/Program/Backend/dj-api/dj-api/webapi/webapi/settings.py changed, reloading.
+2024-05-10 21:23:13,764 INFO autoreload Watching for file changes with StatReloader
+2024-05-10 21:24:10,699 INFO autoreload Watching for file changes with StatReloader
+2024-05-10 21:24:18,598 INFO basehttp "POST /api/v1/token/refresh/ HTTP/1.1" 200 72
+2024-05-10 21:24:35,294 INFO basehttp "POST /api/v1/login/ HTTP/1.1" 200 438
+2024-05-10 21:24:38,413 INFO basehttp "POST /api/v1/login/ HTTP/1.1" 200 438
+2024-05-10 21:24:50,789 INFO autoreload Watching for file changes with StatReloader
+2024-05-10 21:25:52,493 INFO basehttp "POST /api/v1/login/ HTTP/1.1" 200 438
+2024-05-10 21:26:00,402 INFO basehttp "POST /api/v1/login/ HTTP/1.1" 200 438
+2024-05-10 21:26:14,132 INFO basehttp "POST /api/v1/token/refresh/ HTTP/1.1" 200 438
+2024-05-10 21:26:19,791 INFO basehttp "POST /api/v1/token/refresh/ HTTP/1.1" 200 438
