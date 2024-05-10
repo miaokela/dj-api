@@ -1,0 +1,5 @@
+2024-05-10 19:56:48,166 INFO autoreload Watching for file changes with StatReloader
+2024-05-10 19:57:00,608 ERROR views raise error
+2024-05-10 19:57:00,613 INFO basehttp "GET /api/v1/test/1/ HTTP/1.1" 200 64
+2024-05-10 19:57:19,131 INFO autoreload /Users/kela/Program/Backend/dj-api/dj-api/webapi/core/views.py changed, reloading.
+2024-05-10 19:57:20,259 INFO autoreload Watching for file changes with StatReloader
