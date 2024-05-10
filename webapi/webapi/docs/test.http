@@ -1,6 +1,5 @@
 ### 实现产品列表API
-GET http://127.0.0.1:8000/api/v1/product
+GET http://127.0.0.1:8000/api/v1/test
 
 ### 使用原生sql获取产品名称和其所属的分类名称，假设产品ID为1
-GET http://127.0.0.1:8000/api/v1/product/1
-
+GET http://127.0.0.1:8000/api/v1/test/1

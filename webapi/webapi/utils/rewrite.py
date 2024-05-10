@@ -1,3 +1,4 @@
+from rest_framework.generics import GenericAPIView
 from rest_framework.mixins import (
     CreateModelMixin, ListModelMixin, RetrieveModelMixin, UpdateModelMixin, DestroyModelMixin
 )
@@ -52,3 +53,51 @@ class APIDestroyModelMixin(DestroyModelMixin):
         instance = self.get_object()
         self.perform_destroy(instance)
         return APIResponse()
+
+
+class CreateAPIView(APICreateModelMixin,
+                    GenericAPIView):
+    """
+    Concrete view for creating a model instance.
+    """
+    def post(self, request, *args, **kwargs):
+        return self.create(request, *args, **kwargs)
+
+
+class ListAPIView(APIListModelMixin,
+                  GenericAPIView):
+    """
+    Concrete view for listing a queryset.
+    """
+    def get(self, request, *args, **kwargs):
+        return self.list(request, *args, **kwargs)
+
+
+class RetrieveAPIView(APIRetrieveModelMixin,
+                      GenericAPIView):
+    """
+    Concrete view for retrieving a model instance.
+    """
+    def get(self, request, *args, **kwargs):
+        return self.retrieve(request, *args, **kwargs)
+
+
+class DestroyAPIView(APIDestroyModelMixin,
+                     GenericAPIView):
+    """
+    Concrete view for deleting a model instance.
+    """
+    def delete(self, request, *args, **kwargs):
+        return self.destroy(request, *args, **kwargs)
+
+
+class UpdateAPIView(APIRetrieveModelMixin,
+                    GenericAPIView):
+    """
+    Concrete view for updating a model instance.
+    """
+    def put(self, request, *args, **kwargs):
+        return self.update(request, *args, **kwargs)
+
+    def patch(self, request, *args, **kwargs):
+        return self.partial_update(request, *args, **kwargs)

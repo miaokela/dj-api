@@ -12,6 +12,7 @@ django-celery-results==2.0.0
 django-celery-beat==2.2.0
 pyyaml
 jinja2
+pymysql
 ```
 
 ## 基本功能

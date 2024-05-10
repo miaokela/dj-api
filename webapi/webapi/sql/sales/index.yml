@@ -3,9 +3,9 @@ query_products:
     p.name p_name,
     c.name c_name
   FROM
-    sales_product p
+    t_product p
   LEFT JOIN
-    sales_category c
+    t_category c
   ON
     p.category_id = c.id
   WHERE
