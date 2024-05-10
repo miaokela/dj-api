@@ -21,15 +21,26 @@ class DBData(dict):
 
 
 class DBHelper(object):
+
+    print_msg = True
+    page_param = 'page'
+    page_size_param = 'page_size'
+    sql_injection_keywords = ['DROP', 'SELECT', 'DELETE' 'UPDATE', 'INSERT', 'EXEC', '--', '/*', '*/', 'xp_', 'sp_']
+
+    @classmethod
+    def print(cls, msg):
+        if cls.print_msg:
+            print(f"\033[92m{msg}\033[0m")
+
     @classmethod
     def get_params_without_paginated(cls, params: typing.Dict):
         if not params:
             return {}
         params_cp = copy.deepcopy(params)
-        if 'pageNum' in params:
-            del params_cp['pageNum']
-        if 'pageSize' in params:
-            del params_cp['pageSize']
+        if cls.page_param in params:
+            del params_cp[cls.page_param]
+        if cls.page_size_param in params:
+            del params_cp[cls.page_size_param]
         return params_cp
 
     @classmethod
@@ -77,11 +88,85 @@ class DBHelper(object):
             for row in cursor.fetchall()
         ]
 
+
+    @classmethod
+    def filter_sql_injection(cls, input_string):
+        for keyword in cls.sql_injection_keywords:
+            if keyword in input_string.upper():
+                raise ValueError('Keywords that may be at risk for SQL injection:' + keyword)
+        return input_string
+
+    @classmethod
+    def set_exclude_phrase(cls, sql, exclude):
+        """
+        Generate exclude statement
+        """
+        if not exclude:
+            return sql
+
+        if "WHERE" not in sql.upper():
+            sql += " WHERE "
+        else:
+            sql += " AND "
+
+        for key, val in exclude.items():
+            sql += cls.handle_ops(key, val, opt_type="exclude")
+        sql = sql[0:-5]
+
+        return sql
+
+    @classmethod
+    def handle_ops(cls, key, val, opt_type="where"):
+        """
+        包括的操作符包括: __in、__gt、__gte、__lt、__lte、__like、__isnull、__between
+        Handle more types of operations.
+        key: key for either "where" or "exclude"
+        val: value for either "where" or "exclude"
+        opt_type: "where" or "exclude"
+        """
+        filter_str = '_where_' if opt_type == 'where' else '_exclude_'
+        operator_mapping = {
+            '__gt': '>=',
+            '__gte': '>=',
+            '__lt': '<',
+            '__lte': '<=',
+            '__like': 'LIKE',
+            '__in': 'IN',
+            '__isnull': 'IS NULL' if val else 'IS NOT NULL',
+            '__between': 'BETWEEN'
+        }
+        exclude_mapping = {
+            '__gt': '<',
+            '__gte': '<',
+            '__lt': '>=',
+            '__lte': '>',
+            '__like': 'NOT LIKE',
+            '__in': 'NOT IN',
+            '__isnull': 'IS NOT NULL' if val else 'IS NULL',
+            '__between': 'NOT BETWEEN'
+        }
+
+        for op, sql_op in operator_mapping.items():
+            if key.endswith(op):
+                if opt_type == 'exclude':
+                    sql_op = exclude_mapping[op]
+                _key = key.replace(op, '')
+                if op == '__between':
+                    phrase = f"{_key} {sql_op} :{filter_str}_between_1_{key} AND :{filter_str}_between_2_{key} AND "
+                elif op == '__isnull':
+                    phrase = f"{_key} {sql_op} AND "
+                else:
+                    phrase = f"{_key} {sql_op} :{filter_str}{key} AND "
+                return phrase
+
+        return f"{key} = :_where_{key} AND"
+
     @classmethod
     def execute_update(cls, tb_name, data, where):
         """
         更新数据
         """
+        tb_name = cls.filter_sql_injection(tb_name)
         sql = "UPDATE " + tb_name + " SET "
         for key in data.keys():
             sql += "`%s`" % key + " = :" + key + ","
@@ -94,7 +179,7 @@ class DBHelper(object):
                 cursor.execute(sql, data)
                 return cursor.rowcount
         except Exception as e:
-            print("执行sql: < %s %s > 失败！ 原因: %s" % (sql, str(data), str(e)))
+            cls.print("Failed to execute sql: < %s %s >! Cause: %s" % (sql, str(data), str(e)))
             return None
 
     @classmethod
@@ -102,6 +187,7 @@ class DBHelper(object):
         """
         插入数据
         """
+        tb_name = cls.filter_sql_injection(tb_name)
         sql = "INSERT INTO " + tb_name + " ("
         for key in data.keys():
             sql += "`%s`" % key + ","
@@ -116,18 +202,20 @@ class DBHelper(object):
                 cursor.execute(sql, data)
                 return cursor.lastrowid
         except Exception as e:
-            print("执行sql: < %s %s > 失败！ 原因: %s" % (sql, str(data), str(e)))
+            cls.print("Failed to execute sql: < %s %s >! Cause: %s" % (sql, str(data), str(e)))
             return None
 
     @classmethod
-    def execute_delete(cls, tb_name, where, logic=False):
+    def execute_delete(cls, tb_name, where, logic=False, exclude=None):
         """
         删除数据
         """
+        tb_name = cls.filter_sql_injection(tb_name)
         sql = "DELETE FROM " + tb_name
         if logic:
-            sql = "UPDATE %s SET delete_flag=1" % tb_name
+            sql = "UPDATE %s SET is_delete=1" % tb_name
         sql = cls.set_where_phrase(sql, where)
+        sql = cls.set_exclude_phrase(sql, exclude)
         where = cls.fullfilled_data({}, where)
 
         try:
@@ -135,7 +223,7 @@ class DBHelper(object):
                 cursor.execute(sql, where)
                 return cursor.rowcount
         except Exception as e:
-            print("执行sql: < %s %s > 失败！ 原因: %s" % (sql, str(where), str(e)))
+            cls.print("Failed to execute sql: < %s %s >! Cause: %s" % (sql, str(where), str(e)))
             return None
 
     @classmethod
@@ -147,9 +235,10 @@ class DBHelper(object):
         try:
             with connection.cursor() as cursor:
                 cursor.execute(preloaded_sql, params)
+                cls.print("Current sql execution: %s %s" % (preloaded_sql, str(params)))
                 return cls.dictfetchall(cursor, is_obj=return_obj)
         except Exception as e:
-            print("执行sql: %s %s 失败！ 原因:%s" % (preloaded_sql, str(params), str(e)))
+            cls.print("Failed to execute sql: %s %s! Cause :%s" % (preloaded_sql, str(params), str(e)))
 
         return []
 
