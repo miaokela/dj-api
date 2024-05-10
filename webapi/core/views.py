@@ -25,5 +25,6 @@ class TestDetailView(APIView):
             },
             return_obj=False
         )
+        raise Exception('error')
 
         return APIResponse(data=products)

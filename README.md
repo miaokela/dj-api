@@ -1,7 +1,9 @@
 # dj-api
+
 django api模板
 
 ## 依赖库
+
 ```text
 django==3.1
 djangorestframework==3.12
@@ -16,6 +18,7 @@ pymysql
 ```
 
 ## 基本功能
+
 ```text
 1. 数据存储
 2. 日志
@@ -26,4 +29,3 @@ pymysql
 7. jwt用户认证
 8. 异步任务调用、定时任务配置
 ```
-

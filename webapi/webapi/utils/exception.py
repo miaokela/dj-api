@@ -4,6 +4,10 @@ from rest_framework.response import Response
 from rest_framework import status
 
 
+class APIServerError(exceptions.APIException):
+    default_detail = "服务器错误"
+
+
 class APIValidationError(exceptions.ValidationError):
     default_code = status.HTTP_422_UNPROCESSABLE_ENTITY
 
@@ -57,6 +61,9 @@ def exception_handler(exc, context):
     """
     if isinstance(exc, Http404):
         exc = APINotFound()
+    
+    if isinstance(exc, Exception):
+        exc = APIServerError()
 
     if isinstance(exc, exceptions.APIException):
         headers = {}
