@@ -1,0 +1,13 @@
+query_products:
+  SELECT
+    p.name p_name,
+    c.name c_name
+  FROM
+    sales_product p
+  LEFT JOIN
+    sales_category c
+  ON
+    p.category_id = c.id
+  WHERE
+    p.id = %(product_id)s
+
