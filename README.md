@@ -7,15 +7,17 @@ django api模板
 ```text
 django==3.1
 djangorestframework==3.12
-celery==5.0.5
+celery==5.2.7
 redis==3.5.3
-flower
+flower==2.0.0
 django-celery-results==2.0.0
 django-celery-beat==2.2.0
-pyyaml
-jinja2
-pymysql
-djangorestframework-simplejwt
+pyyaml==6.0.1
+jinja2==3.1.4
+pymysql==1.1.0
+djangorestframework-simplejwt==4.6.0
+coreapi==2.3.3
+uwsgi==2.0.20
 ```
 
 ## 基本功能
@@ -53,3 +55,15 @@ python manage.py createsuperuser
 
 - 启动flower监控
 > celery -A webapi flower --address=0.0.0.0 --port=5555
+
+
+## docker部署
+- 创建镜像
+```shell
+docker build -t webapi .
+```
+
+- 创建容器
+```shell
+docker run --name webapi -p 8001:8000 -p 5556:5555 -itd webapi
+```

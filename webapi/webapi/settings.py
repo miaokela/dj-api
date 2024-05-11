@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 from datetime import timedelta
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -89,7 +90,7 @@ DATABASES = {
         'NAME': 'webapi',
         'USER': 'root',
         'PASSWORD': '123456',
-        'HOST': 'localhost',  # 或者使用你的 MySQL 服务器的 IP 地址
+        'HOST': '192.168.1.4',  # 或者使用你的 MySQL 服务器的 IP 地址
         'PORT': '6666',  # MySQL 的默认端口是 3306
     }
 }
@@ -132,6 +133,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# 部署时需要收集静态文件
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 # log
 LOGGING = {
@@ -196,7 +200,7 @@ SIMPLE_JWT = {
 
 
 # Redis Configuration
-REDIS_HOST = 'localhost'
+REDIS_HOST = '192.168.1.4'
 REDIS_PORT = 6379
 REDIS_PASSWORD = 123456
 
