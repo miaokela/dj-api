@@ -10,20 +10,22 @@ from webapi.utils.rewrite import CreateAPIView, ListAPIView
 from webapi.utils.helper import DBHelper
 from .models import Product
 from .serializers import ProductSerializer, UserRegistrationSerializer
+from webapi.utils.rate_limit import run_limited_task
 
 
 logger = logging.getLogger('core')
 
 class TestListView(ListAPIView):
+    permission_classes = [IsAuthenticated]
+
     queryset = Product.objects.all()
     serializer_class = ProductSerializer
     pagination_class = RestPagination
-    permission_classes = [IsAuthenticated]
 
 
 class TestDetailView(APIView):
 
-    permission_classes = [IsAuthenticated]
+    # permission_classes = [IsAuthenticated]
 
     def get(self, request, pk):
         products = DBHelper.select_one(
@@ -33,6 +35,7 @@ class TestDetailView(APIView):
             },
             return_obj=False
         )
+        run_limited_task(data={"name": "miaokela"}, interval_milliseconds=200)
         # raise Exception('error')
         # logger.error("raise error")
 
